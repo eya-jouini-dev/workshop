@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+       <ul>
+        <li> <a href="#home">home</a></li>
+        <li ><a href="#work">about</a></li>
+        <li ><a href="#resume"> resume </a></li>
+        <li> <a href="#contact">contact</a></li>
+        <li> <a href="#about">about</a></li>
+        </ul>  
+        </nav> 
+     </nav>
+     <section id="about">
+        <h2>About </h2>
+        <p>Enter some information about yourself:</p>
+        <form>
+            <textarea name="about_content" rows="3" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <p>Enter your work experience:</p>
+        <form >
+            <textarea name="work_experience" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Upload your resume:</p>
+        <form >
+            <input type="file" name="resume_file"><br>
+            <input type="submit" value="Upload">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact </h2>
+        <p>Enter your contact information:</p>
+        <form >
+            <input type="text" name="name" placeholder="Your Name"><br>
+            <input type="email" name="email" placeholder="Your Email"><br>
+            <textarea name="message" rows="2" cols="30" placeholder="Your Message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</body>
+</html>
