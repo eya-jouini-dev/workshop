@@ -1,0 +1,40 @@
+nav {
+    display: inline;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    display: inline;
+    background-color: #333;
+    padding: 10px;
+}
+
+.liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.liste li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.liste li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.liste li a:hover {
+    color: #ccc;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+}
